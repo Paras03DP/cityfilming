@@ -84,7 +84,7 @@ body {
     text-align: center;
     letter-spacing: 1px;
     margin: 15px 0;
-    animation:textanimation 6s ease-in-out;
+    animation:textanimation 12s ease-in-out;
 }
 .logo-2 p{
     font-size: 18px;
@@ -108,24 +108,7 @@ body {
     }
 }
 
-/* ------------------------------- our works ----------------------- */
-
-/* .our-works{
-    width: 100%;
-    padding: 5vq 8;
-    height: 200px;
-    background-color: black;
-}
-.our-works h1 {
-    margin-top: 0;
-    color: white;
-    text-align: center;
-}
-.our-works p {
-    margin-top: 0;
-    color: white;
-    text-align: center;
-} */
+/* ------------------------------- our features ----------------------- */
 #features{
     padding: 5vw 8vw 5vw 8vw;
     text-align: center;
@@ -134,7 +117,7 @@ body {
 }
 #features h1{
     color: red;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: -10px;
     font-family: 'Lobster Two', sans-serif;
 }
@@ -145,7 +128,7 @@ body {
     text-decoration: none;
 }
 #features .fea-box{
-    background: white;
+    background: #F6BE00;
     text-align: start;
     margin: 10px;
     height: 200px;
@@ -157,11 +140,12 @@ body {
 }
 #features .fea-box i{
     font-size: 3rem;
+    justify-content: center;
     padding: 10px;
-    color: red;
+    color: white;
 }
 #features .fea-box h3{
-    font-size: 1.9rem;
+    font-size: 3.2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-weight: 900;
@@ -173,6 +157,7 @@ body {
 }
 #features .fea-box p{
     font-size: 1.5rem;
+    text-align: center;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-weight: 600;
     color: black;
@@ -182,4 +167,10 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     margin-top: 50px;
     border-radius: 15px;
+}
+/* --------------------our portfolio ------------------------- */
+.porfolio{
+    background-color: black;
+    width: 100%;
+    height: 500px;
 }
