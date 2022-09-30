@@ -114,6 +114,7 @@ body {
     text-align: center;
     background-color: black;
     margin-top: -20px;
+    /* height: 850px; */
 }
 #features h1{
     color: red;
@@ -130,7 +131,7 @@ body {
 #features .fea-box{
     background: #F6BE00;
     text-align: start;
-    margin: 10px;
+    margin: 20px;
     height: 200px;
     border-radius: 15px;
     transition: 1s;
@@ -169,8 +170,44 @@ body {
     border-radius: 15px;
 }
 /* --------------------our portfolio ------------------------- */
-.porfolio{
-    background-color: black;
+.portfolio h1{
+    text-align: center;
+    color: #F6BE00;
+    /* font-family: Brush Script MT, Brush Script Std, cursive; */
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 50px;
+    margin-top: -20px;
+}
+.portfolio p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: 300;
+    color: white;
+}
+.portfolio{
     width: 100%;
-    height: 500px;
+    background-color: black;
+    text-align: center;
+    margin-top: -20px;
+}
+.portfolio .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-top: 50px;
+    margin: 40px;
+}
+.content .card h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.content .card p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 1rem;
 }
